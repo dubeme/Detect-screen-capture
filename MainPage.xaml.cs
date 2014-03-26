@@ -60,7 +60,7 @@ namespace TestForScreenCapture
                     {
                         MessageBox.Show("Got you.");
 
-                        tbk.Text = "This [" + currentPictureCollection[i].Name + "] taken on [" + 
+                        tbk.Text = "This screenshot [" + currentPictureCollection[i].Name + "] taken on [" + 
                             currentPictureCollection[i].Date + "].";
                         lastKnownPictureCollectionState = currentPictureCollection;
                         // Since I am only interested in finding the first occurance
